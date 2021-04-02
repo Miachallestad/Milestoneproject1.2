@@ -6,11 +6,15 @@
     font-size: 40px;
     font-weight: 300;
     letter-spacing: 0.1rem;
-    color: lightgray;
+    color: gray;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.grey-text {
+    color: gray;
 }
 
 /*Navigation*/
@@ -38,7 +42,7 @@ body {
 /*Landing page*/
 
 #hero-img {
-    height: 90vh;
+    height: 100vh;
     background: url("../images/landing1.jpg") no-repeat center center;
     width: 100%;
     -webkit-background-size: cover;
@@ -81,32 +85,41 @@ body {
      margin-bottom: 1%;
 }
 
+.block-divider-services {
+    width: 120px;
+    height: 2px;
+    border: 0;
+    border-style: dotted;
+    border-radius: 30px;
+    background-color: lightgrey;
+}
+
 .e-learning-icon-image {
     background: url("../images/e_learning_icon.jpg") no-repeat center center;
     height: 75px;
     width: 75px;
 }
 
-.micro-learning-icon-image {
-    background: url("../images/micro_learning_icon.jpg") no-repeat center center;
+.video-icon-image {
+    background: url("../images/video_icon.jpg") no-repeat center center;
     height: 75px;
     width: 75px;
 }
 
-.gamification-icon-image {
-    background: url("../images/gamification_icon.jpg") no-repeat center center;
+.power-point-icon-image {
+    background: url("../images/power_point_icon.jpg") no-repeat center center;
     height: 75px;
     width: 75px;
 }
 
-.pod-icon-image {
-    background: url("../images/pod_icon.jpg") no-repeat center center;
+.guides-icon-image {
+    background: url("../images/instructions_guides_icon.jpg") no-repeat center center;
     height: 75px;
     width: 75px; 
 }
 
-.video-icon-image {
-    background: url("../images/video_icon.jpg") no-repeat center center;
+.hosting-icon-image {
+    background: url("../images/hosting_icon_image.jpg") no-repeat center center;
     height: 75px;
     width: 75px; 
 }
@@ -124,31 +137,15 @@ body {
 }
 
 .consultation-icon-image {
-    background: url("../images/consultation_icon.jpg") no-repeat center center;
+    background: url("../images/consultation_icon_image.jpg") no-repeat center center;
     height: 75px;
     width: 75px; 
 }
 
- .experience-title {
-    color: #F21E70;
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: 0.6%;
-    text-align: center;
-}
-
-.number-of-years {
-    color: #F21E70;
-    font-size: 45px;
-    font-weight: bold;
-    margin-top: -20%;
-}
-
-.years {
-    color:#F21E70;
-    font-size: 14px;
-    font-weight: 300;
-    margin-top: -3%;
+.arrow-board-image {
+    background: url("../images/arrow_board.jpg") no-repeat center center;
+    height: 200px;
+    width: 200px; 
 }
 
 /*Buttons*/
